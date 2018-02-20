@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import PageContainer from '../../PageContainer';
 import EditorAndConsoleContainer from '../../EditorAndConsoleContainer';
@@ -12,9 +12,9 @@ export default class SimplestEditorTut extends Component {
 		return (
 			<PageContainer {...this.props}>
 				<EditorAndConsoleContainer>
-					<Editor/>
+					<Editor />
 				</EditorAndConsoleContainer>
-				<MarkdownFileRenderer mdFileURL={readmeFile}/>
+				<MarkdownFileRenderer mdFileURL={readmeFile} />
 			</PageContainer>
 		);
 	}
